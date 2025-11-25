@@ -26,7 +26,7 @@ class Atm:
         """definition to check if atm card is inserted
            return True or False
         """
-        if atm_answer == "y":
+        if atm_answer.lower() == "y":
             return True
         else:
 
@@ -51,7 +51,7 @@ class Atm:
             self.withdraw_money()
         if option == '3':
             self.deposit_money()
-        if option == 'x':
+        if option.lower() == 'x':
             self.account_logout()
 
     def check_balance(self):

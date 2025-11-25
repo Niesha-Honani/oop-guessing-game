@@ -1,7 +1,8 @@
+"""Import game_engine Class"""
 import game_engine
 
 game = game_engine.GuessingGame(10) #1-10
-player_name = (input("Enter your name: "))
+player_name = input("Enter your name: ")
 print(f"Greetings {player_name}!")
 
 
